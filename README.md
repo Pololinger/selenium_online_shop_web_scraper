@@ -1,4 +1,4 @@
-# selenium_online_shop_web_scraper
+# Selenium online shop web scraper
 This Selenium scraper collects the text reviews of all products that fit a given keyword in the dm Drogeriemarkt online shop.
 
 ## Setup 
