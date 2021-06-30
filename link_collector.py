@@ -5,7 +5,6 @@ import selenium
 from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import TimeoutException   ### braucht mer net
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.common.exceptions import StaleElementReferenceException
 from selenium.webdriver.common.by import By
@@ -22,6 +21,8 @@ drogerie_links = []
 
 
 driver = webdriver.Chrome(executable_path=r"") #### specify path to your chromedriver.exe 
+
+
 driver.get(url)
 
 
